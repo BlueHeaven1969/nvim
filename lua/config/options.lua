@@ -7,3 +7,9 @@ if vim.loop.os_uname().sysname == "Windows_NT" then
 end
 
 vim.opt.colorcolumn = "100"
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
+vim.g.autoformat = false
+vim.g.loaded_perl_provider = 0
+vim.g.loaded_node_provider = 0
+vim.g.loaded_ruby_provider = 0
