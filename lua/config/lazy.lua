@@ -24,7 +24,7 @@ if not vim.g.vscode then
         { import = "lazyvim.plugins.extras.lang.typescript" },
         { import = "lazyvim.plugins.extras.lang.yaml" },
         { import = "lazyvim.plugins.extras.test.core" },
-        { import = "lazyvim.plugins.extras.vscode" },
+        -- { import = "lazyvim.plugins.extras.vscode" },
         -- import/override with your plugins
         { import = "plugins" },
     },
@@ -37,7 +37,7 @@ if not vim.g.vscode then
         version = false, -- always use the latest git commit
         -- version = "*", -- try installing the latest stable version for plugins that support semver
     },
-    install = { colorscheme = { "tokyonight", "habamax" } },
+    -- install = { colorscheme = { "tokyonight", "habamax" } },
     checker = { enabled = true }, -- automatically check for plugin updates
     performance = {
         rtp = {
