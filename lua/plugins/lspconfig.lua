@@ -1,10 +1,10 @@
 return {
---  {
---    "neovim/nvim-lspconfig",
---    opts = {
---      diagnostics = {
---        virtual_text = false,
---      },
---    },
---  },
+    {
+        "neovim/nvim-lspconfig",
+        opts = {
+            servers = {
+                clangd = { mason = false },
+            },
+        },
+    },
 }
