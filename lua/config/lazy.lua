@@ -13,8 +13,10 @@ if not vim.g.vscode then
         { "LazyVim/LazyVim", import = "lazyvim.plugins" },
         -- import any extras modules here
         { import = "lazyvim.plugins.extras.coding.yanky" },
-        { import = "lazyvim.plugins.extras.editor.outline" },
+        { import = "lazyvim.plugins.extras.editor.aerial" },
+        { import = "lazyvim.plugins.extras.editor.mini-diff" },
         { import = "lazyvim.plugins.extras.editor.navic" },
+        { import = "lazyvim.plugins.extras.editor.trouble-v3" },
         { import = "lazyvim.plugins.extras.formatting.black" },
         { import = "lazyvim.plugins.extras.lang.clangd" },
         { import = "lazyvim.plugins.extras.lang.cmake" },
