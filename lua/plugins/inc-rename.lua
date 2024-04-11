@@ -2,14 +2,17 @@ return {
     {
         "smjonas/inc-rename.nvim",
         dependencies = {
-            "stevearc/dressing.nvim"
+            "folke/noice.nvim"
         },
-        opts = {},
-        -- config = function()
-        --     require("inc_rename").setup({
-        --         input_buffer_type = "dressing"
-        --     })
-        -- end,
+        config = function()
+            require("inc_rename").setup()
+            require("noice").setup({
+                presets = { inc_rename = true }
+            })
+            -- require("inc_rename").setup({
+            --     input_buffer_type = "dressing"
+            -- })
+        end,
         keys = {
             {
                 "<Leader>cq", ":IncRename ", desc = "Inc Rename"

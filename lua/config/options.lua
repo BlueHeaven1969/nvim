@@ -3,7 +3,8 @@
 -- Add any additional options here
 
 if vim.loop.os_uname().sysname == "Windows_NT" then
-  vim.opt.shell = "pwsh.exe"
+    vim.opt.shell = "pwsh.exe"
+    vim.g.sqlite_clib_path = "C:/Users/Rst.Pie/Tools/sqlite/sqlite3.dll"
 end
 
 vim.opt.colorcolumn = "100"
