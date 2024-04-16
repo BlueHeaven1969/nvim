@@ -2,7 +2,7 @@ return {
     {
         "WhoIsSethDaniel/toggle-lsp-diagnostics.nvim",
         config = function()
-            require("toggle_lsp_diagnostis").init(
+            require("toggle_lsp_diagnostics").init(
             {
                 underline = true,
                 update_in_insert = false,
@@ -26,9 +26,7 @@ return {
             })
         end,
         keys = {
-            {
-                { "<leader>uv", "<Plug>(toggle-lsp-vtext)", desc = "Toggle Virtual Text" }
-            }
+            { "<leader>uv", "<Plug>(toggle-lsp-diag-vtext)", desc = "Toggle Virtual Text" }
         }
     }
 }
