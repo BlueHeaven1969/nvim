@@ -11,14 +11,13 @@ return {
             "kkharji/sqlite.lua",
             -- Only required if using match_algorithm fzf
             "nvim-telescope/telescope.nvim",
-            "nvim-telescope/telescope-fzf-native.nvim"
+            "nvim-telescope/telescope-fzf-native.nvim",
+			"nvim-telescope/telescope-fzy-native.nvim"
         },
         keys = {
             {
                 "<leader>fa", function ()
-                    require("telescope").extensions.smart_open.smart_open( {
-                        match_algorithm = 'fzf'
-                    })
+                    require("telescope").extensions.smart_open.smart_open({ })
                 end,
                 desc = "Fuzzy Find Files"
             }

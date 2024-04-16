@@ -2,6 +2,8 @@
 -- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
 -- Add any additional keymaps here
 --
+
+-- VSCODE KEYMAPS
 if vim.g.vscode then
   local vscode = require("vscode-neovim")
   vim.api.nvim_set_keymap(
