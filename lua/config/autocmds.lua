@@ -7,7 +7,7 @@ local autocmd = vim.api.nvim_create_autocmd
 
 augroup("rsp_cmds", { clear = true })
 
-autocmd("Filetype", 
+autocmd("Filetype",
     {
         pattern = { "*" },
         callback = function ()

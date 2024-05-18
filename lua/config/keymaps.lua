@@ -5,7 +5,6 @@
 
 -- VSCODE KEYMAPS
 if vim.g.vscode then
-  local vscode = require("vscode-neovim")
   vim.api.nvim_set_keymap(
     "n",
     "?",

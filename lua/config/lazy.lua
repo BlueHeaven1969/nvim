@@ -14,6 +14,7 @@ if not vim.g.vscode then
         -- import any extras modules here
         { import = "lazyvim.plugins.extras.coding.yanky" },
         { import = "lazyvim.plugins.extras.editor.aerial" },
+        { import = "lazyvim.plugins.extras.editor.dial" },
         { import = "lazyvim.plugins.extras.editor.mini-diff" },
         { import = "lazyvim.plugins.extras.editor.navic" },
         { import = "lazyvim.plugins.extras.editor.trouble-v3" },
@@ -25,13 +26,13 @@ if not vim.g.vscode then
         { import = "lazyvim.plugins.extras.lang.python" },
         { import = "lazyvim.plugins.extras.lang.typescript" },
         { import = "lazyvim.plugins.extras.lang.yaml" },
-        { import = "lazyvim.plugins.extras.test.core" },
+        -- { import = "lazyvim.plugins.extras.test.core" },
         -- { import = "lazyvim.plugins.extras.vscode" },
         -- import/override with your plugins
         { import = "plugins" },
     },
     defaults = {
-        -- By default, only LazyVim plugins will be lazy-loaded. Your custom plugins will load during startup.
+        -- by default, only lazyvim plugins will be lazy-loaded. your custom plugins will load during startup.
         -- If you know what you're doing, you can set this to `true` to have all your custom plugins lazy-loaded by default.
         lazy = false,
         -- It's recommended to leave version=false for now, since a lot the plugin that support versioning,
