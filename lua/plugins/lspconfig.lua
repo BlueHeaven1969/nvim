@@ -5,6 +5,7 @@ return {
             servers = {
                 clangd = { mason = false },
             },
+            inlay_hints = { enabled = false },
         },
     },
 }

@@ -17,7 +17,7 @@ if not vim.g.vscode then
         { import = "lazyvim.plugins.extras.editor.dial" },
         { import = "lazyvim.plugins.extras.editor.mini-diff" },
         { import = "lazyvim.plugins.extras.editor.navic" },
-        { import = "lazyvim.plugins.extras.editor.trouble-v3" },
+        -- { import = "lazyvim.plugins.extras.editor.trouble-v3" },
         { import = "lazyvim.plugins.extras.formatting.black" },
         { import = "lazyvim.plugins.extras.lang.clangd" },
         { import = "lazyvim.plugins.extras.lang.cmake" },
