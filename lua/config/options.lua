@@ -23,3 +23,5 @@ vim.opt.titlestring = '[nvim] %t %m'
 vim.g.lazyvim_python_lsp = "pyright"
 -- Set to "ruff_lsp" to use the old LSP implementation version.
 vim.g.lazyvim_python_ruff = "ruff"
+-- Set using snacks picker
+vim.g.lazyvim_picker = "snacks"

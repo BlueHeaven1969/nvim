@@ -20,6 +20,7 @@ if not vim.g.vscode then
         { import = "lazyvim.plugins.extras.editor.inc-rename" },
         { import = "lazyvim.plugins.extras.editor.mini-diff" },
         { import = "lazyvim.plugins.extras.editor.navic" },
+        { import = "lazyvim.plugins.extras.editor.snacks_explorer" },
         { import = "lazyvim.plugins.extras.editor.snacks_picker" },
         { import = "lazyvim.plugins.extras.formatting.black" },
         { import = "lazyvim.plugins.extras.lang.clangd" },
@@ -29,6 +30,7 @@ if not vim.g.vscode then
         { import = "lazyvim.plugins.extras.lang.python" },
         { import = "lazyvim.plugins.extras.lang.typescript" },
         { import = "lazyvim.plugins.extras.lang.yaml" },
+        { import = "lazyvim.plugins.extras.util.dot" },
         -- { import = "lazyvim.plugins.extras.test.core" },
         -- { import = "lazyvim.plugins.extras.vscode" },
         -- import/override with your plugins
