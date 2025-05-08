@@ -15,6 +15,6 @@ autocmd("Filetype",
             vim.opt.formatoptions:remove("o")
         end,
         group = "rsp_cmds",
-        desc = "Don't continue commands on enter or 'o'",
+        desc = "Don't continue comments on enter or 'o'",
     }
 )

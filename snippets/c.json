@@ -1,6 +1,6 @@
 {
     "comment": {
-        "prefix": "/**",
+        "prefix": "sum",
         "body": [
             "/**",
             " * ${1:A one-line summary.}",
@@ -18,7 +18,7 @@
         "description": "A C comment block for functions, including short summary, details, param, return, and example."
     },
     "comment_simple": {
-        "prefix": "/*",
+        "prefix": "shsum",
         "body": [
             "/**",
             " * ${1:A one-line summary.}",
@@ -29,7 +29,7 @@
         "description": "A simple C comment block for functions, including short summary, and details. Useful when you prefer to add the other documentation tags manually."
     },
    "comment_doxygen": {
-        "prefix": "///-",
+        "prefix": "doxsum",
         "body": [
             "///-----------------------------------------------------------------------------",
             "/// @brief ${1:A one-line summary.}",

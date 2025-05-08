@@ -6,8 +6,8 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(vim.env.LAZY or lazypath)
 
-if not vim.g.vscode then
-    require("lazy").setup({
+
+require("lazy").setup({
     spec = {
         -- add LazyVim and import its plugins
         { "LazyVim/LazyVim", import = "lazyvim.plugins" },
@@ -63,5 +63,5 @@ if not vim.g.vscode then
         },
     },
 })
-end
+
 
