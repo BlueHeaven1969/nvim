@@ -1,15 +1,11 @@
 
 return {
-    {
-        'folke/snacks.nvim',
-        opts = {
-			picker = {
-				formatters = {
-					file = {
-						truncate = 60,
-					}
-                }
-            }
-        }
+  {
+    'folke/snacks.nvim',
+    opts = {
+      picker = {
+        formatters = { file = { truncate = 60, } },
+      }
     }
+  }
 }
