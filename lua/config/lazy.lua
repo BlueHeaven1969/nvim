@@ -12,7 +12,6 @@ require("lazy").setup({
         { "LazyVim/LazyVim", import = "lazyvim.plugins" },
         -- import any extras modules here
         { import = "lazyvim.plugins.extras.coding.blink" },
-        { import = "lazyvim.plugins.extras.coding.neogen" },
         { import = "lazyvim.plugins.extras.coding.yanky" },
         { import = "lazyvim.plugins.extras.editor.aerial" },
         { import = "lazyvim.plugins.extras.editor.navic" },
