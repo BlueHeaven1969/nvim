@@ -14,6 +14,7 @@ require("lazy").setup({
         { import = "lazyvim.plugins.extras.coding.blink" },
         { import = "lazyvim.plugins.extras.coding.luasnip" },
         { import = "lazyvim.plugins.extras.coding.yanky" },
+        -- { import = "lazyvim.plugins.extras.dap.core" },
         { import = "lazyvim.plugins.extras.editor.aerial" },
         { import = "lazyvim.plugins.extras.editor.navic" },
         { import = "lazyvim.plugins.extras.editor.snacks_explorer" },
